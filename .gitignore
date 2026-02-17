@@ -1,0 +1,17 @@
+target/
+*.class
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+
+# Maven wrapper is OK to commit
+!.mvn/wrapper/maven-wrapper.jar
