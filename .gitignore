@@ -1,17 +1,27 @@
+# ================================
+# Build 결과물 (Maven / Java 컴파일 산출물)
+# ================================
 target/
 *.class
 *.log
 
-# IDE
-.idea/
-*.iml
-.vscode/
-.classpath
-.project
-.settings/
+# ================================
+# IDE / 에디터 설정 파일 (개인 환경마다 다름)
+# ================================
+.idea/        # IntelliJ IDEA 설정 폴더
+*.iml         # IntelliJ 모듈 파일
+.vscode/      # VS Code 설정 폴더
+.classpath    # Eclipse 관련 파일
+.project      # Eclipse 프로젝트 파일
+.settings/    # Eclipse 설정 폴더
 
-# OS
-.DS_Store
+# ================================
+# OS에서 자동 생성되는 파일
+# ================================
+.DS_Store     # macOS Finder 메타데이터 파일
 
-# Maven wrapper is OK to commit
+# ================================
+# Maven Wrapper 관련
+# ================================
+# Maven Wrapper JAR는 저장소에 포함하는 것이 권장됨
 !.mvn/wrapper/maven-wrapper.jar
